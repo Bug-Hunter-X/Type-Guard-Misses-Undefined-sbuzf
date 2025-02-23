@@ -1,0 +1,3 @@
+# Type Guard Misses Undefined in TypeScript
+
+This code demonstrates a subtle issue with type guards in TypeScript where a null check might miss the undefined case, leading to runtime errors. The function `greet` aims to handle null input gracefully but fails to consider the undefined case.  The solution involves extending the type guard to handle both null and undefined. This example highlights the importance of thorough type checking and considering all potential nullish values in your code.
